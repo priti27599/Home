@@ -1,0 +1,163 @@
+.title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px 10px 60px 10px;
+
+}
+
+.main-title {
+    font-size: 28px;
+    margin-left: 180px;
+    font-weight: 600;
+}
+
+.view {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 270px;
+}
+
+.card1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.card1 .card-img {
+    width: 300px;
+    border-radius: 50px 0px 0px 0px;
+}
+
+.card1 .card3 {
+    background: #270F33;
+    border-radius: 0px 0px 50px 0px;
+    width: 300px;
+    height: 283px;
+}
+
+.card1 .card3 h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 20px 0 20px;
+    border: none;
+    height: 69px;
+}
+
+.card1 .desc1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 0 20px 0 20px;
+    border: none;
+    height: 38px;
+}
+
+.card1 .desc2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 0 20px 5px 20px;
+}
+
+
+.detail {
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 20px 5px 20px;
+    justify-content: space-between;
+}
+
+.de {
+    margin-left: 5px;
+}
+
+.detail1 {
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 20px 5px 20px;
+}
+
+.btn1 {
+    position: relative;
+    left: 185px;
+    top: -15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    background: #FBD07A;
+    border-radius: 6.75323px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .main-title {
+        font-size: 24px;
+        margin-left: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .view {
+        position: absolute;
+        top: 2950px;
+        left: -14%;
+        border: 1px solid #FBD07A;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+    }
+
+    .ca {
+        display: none;
+    }
+
+    .card1 {
+        margin-left: 15%;
+    }
+    .card2{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1000px){
+    .main-title {
+        position: absolute;
+        left: 10px;
+        font-size: 24px;
+        font-weight: 600;
+        }
+        .view{
+            display: none;
+        }
+        .card1{
+            margin-left: 5%;
+        }
+        .card2{
+            margin:30px;
+        }
+    .ca{
+        display: none;
+    }
+}

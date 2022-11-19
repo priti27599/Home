@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+.book {
+    background-color: #fff;
+}
+
+.book h1 {
+    position: absolute;
+    left: 360px;
+    top: 142px;
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+
+.book .ti {
+    position: absolute;
+    top: 320px;
+    left: 750px;
+}
+
+
+
+.im1 {
+    position: absolute;
+    width: 650px;
+    height: 430px;
+    left: 60px;
+    top: 320px;
+    border-radius: 139.555px 0px 0px 0px;
+    border: 15px solid #FBD07A;
+}
+
+.im2 {
+    position: absolute;
+    width: 650px;
+    height: 431px;
+    left: 550px;
+    top: 422px;
+    border-radius: 0px 0px 159px 0px;
+    z-index: -1;
+    border: 15px solid #003831;
+}
+
+.book h3 {
+    position: absolute;
+    top: 1050px;
+    left: 50%;
+    font-weight: 700;
+}
+
+.im3 {
+    position: absolute;
+    width: 1100px;
+    left: 88px;
+    top: 1180px;
+}
+
+.about {
+    position: absolute;
+    width: 100%;
+    height: 635px;
+    left: 0px;
+    top: 2358px;
+    background: #270F33;
+}
+
+.im4 {
+    position: absolute;
+    width: 280px;
+    height: 330px;
+    left: 112px;
+    top: -120px;
+}
+
+.im5 {
+    position: absolute;
+    width: 280px;
+    height: 330px;
+    left: 410px;
+    top: -120px;
+}
+
+.im6 {
+    position: absolute;
+    width: 280px;
+    height: 240px;
+    left: 112px;
+    top: 220px;
+}
+
+.im7 {
+    position: absolute;
+    width: 280px;
+    height: 240px;
+    left: 410px;
+    top: 220px;
+}
+
+.im8 {
+    position: absolute;
+    width: 580px;
+    height: 300px;
+    left: 112px;
+    top: 470px
+}
+
+.det {
+    position: absolute;
+    top: 30px;
+    left: 820px;
+    border: 1px solid #fff;
+    width: 380px;
+    padding: 20px;
+    background-color: #FBD07A;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contact {
+    position: absolute;
+    top: 3450px;
+    left: 80%;
+}
+
+.logo1 {
+    width: 120px;
+}
+
+.gallery {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .book h1 {
+        left: 32%;
+        font-size: 15px;
+    }
+
+    .book .ti {
+        position: absolute;
+        top: 220px;
+        left: 60%;
+        font-size: 14px;
+    }
+
+    .im1 {
+        width: 270px;
+        height: 200px;
+        left: 10%;
+        top: 220px;
+        border-radius: 119px 0px 0px 0px;
+    }
+
+    .im2 {
+        width: 270px;
+        height: 200px;
+        left: 45%;
+        top: 322px;
+        border-radius: 0px 0px 119px 0px;
+        z-index: 1;
+    }
+
+    .book h3 {
+        top: 590px;
+        left: 33%;
+    }
+
+    .im3 {
+        width: 90%;
+        left: 10%;
+        top: 650px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 1000px;
+    }
+
+    .im10 {
+        width: 35%;
+        margin-right: 20px;
+        margin-left: -10px;
+    }
+
+    .about {
+        position: absolute;
+        width: 80%;
+        height: 1305px;
+        left: 11%;
+        top: 1700px;
+        background: #270F33;
+    }
+
+    .im4 {
+        width: 170px;
+        height: 200px;
+        left: 27%;
+    }
+
+    .im5 {
+        width: 170px;
+        height: 200px;
+        left: 73%;
+    }
+
+    .im6 {
+        width: 170px;
+        height: 110px;
+        left: 27%;
+        top: 90px;
+    }
+
+    .im7 {
+        width: 170px;
+        height: 110px;
+        left: 73%;
+        top: 90px;
+    }
+
+    .im8 {
+        width: 89%;
+        height: 200px;
+        left: 27%;
+        top: 210px
+    }
+
+    .det {
+        position: absolute;
+        top: 490px;
+        left: 10%;
+        width: 310px;
+    }
+
+   .contact{
+    display: none;
+   }
+
+
+}
+
+@media only screen and (min-width: 700px) and (max-width:1000px){
+    .book h1 {
+            left: 22%;
+            font-size: 45px;
+        }
+    
+        .book .ti {
+            position: absolute;
+            top: 350px;
+            left: 54%;
+            font-size: 40px;
+        }
+    
+        .im1 {
+            width: 50%;
+            left: 5%;
+        }
+    
+        .im2 {
+           width: 50%;
+            left: 40%;
+            top: 522px;
+        }
+    .book h3 {
+            top: 590px;
+            left: 33%;
+        }
+    
+        .im3 {
+            width: 90%;
+            left: 5%;
+            top: 1150px;
+        }
+    .about {
+            position: absolute;
+            width: 90%;
+            left: 5%;
+            right: 5%;
+            height: 800px;
+            top: 2300px;
+            background: #270F33;
+        }
+    
+        .im4 {
+            width: 200px;
+            height: 220px;
+            left: 5%;
+        }
+    
+        .im5 {
+            width: 200px;
+            height: 220px;
+            left: 30%;
+        }
+    
+        .im6 {
+            width: 200px;
+            height: 140px;
+            left: 5%;
+            top: 110px;
+        }
+    
+        .im7 {
+            width: 200px;
+            height: 140px;
+            left: 30%;
+            top: 110px;
+        }
+    
+        .im8 {
+            width: 48%;
+            height: 200px;
+            left: 5%;
+            top: 260px
+        }
+    
+        .det {
+            position: absolute;
+            top: 40px;
+            left: 60%;
+            width: 310px;
+        }
+}
