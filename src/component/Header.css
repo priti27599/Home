@@ -44,6 +44,13 @@ nav.navbar a.navbar-brand {
     font-weight: 800;
 }
 
+nav.navbar .navbar-nav ul{
+    display: flex;
+}
+nav.navbar .navbar-nav li{
+    list-style: none;
+}
+
 nav.navbar .navbar-nav .item {
 
     padding: 5px 15px;
@@ -59,6 +66,7 @@ nav.navbar .navbar-nav .item {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     color: #270F33;
+    
 }
 
 
@@ -143,11 +151,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: white;
     font-size: 30px;
   }
-  .ms-auto{
+  /* .ms-auto{
     position: absolute;
     top: 70px;
     left: 55%;
     width: 40%;
+  } */
+
+  nav.navbar .navbar-nav ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 460px;
+  }
+  nav.navbar .navbar-nav ul li{
+    margin: 5px;
+    padding: 5px;
   }
 }
 
