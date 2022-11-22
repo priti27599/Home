@@ -3,7 +3,6 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import logo from '../images/logo.jpg'
 import { FiSearch } from 'react-icons/fi';
 import './Header.css';
-// import {Link} from "react-router-dom";
 
 function Header() {
     const [activeLink, setActiveLink] = useState('home');
@@ -23,9 +22,7 @@ function Header() {
         return () => window.removeEventListener('scroll', onScroll);
     }, []);
 
-    // const onUpdateActiveLink = (value) => {
-    //     setActiveLink(value);
-    // };
+
 
     return (
         
@@ -39,26 +36,12 @@ function Header() {
                     </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link
-                               className='item'
-                            >
-                                Home
-                            </Nav.Link>
-                            <Nav.Link className='item'>
-                                What's on
-                            </Nav.Link>
-
-                            <Nav.Link className='item'
-                            >
-                                Book Venue
-                            </Nav.Link>
-                            <Nav.Link className='item'>
-                                Gallery
-                            </Nav.Link>
-
-                            <Nav.Link className='item'>
-                                Contact Us
-                            </Nav.Link>
+                           <ul>
+                            <li><a href='/' className='item'>Home</a></li>
+                            <li><a href='/' className='item'>What's on</a></li>
+                            <li><a href='/venue' className='item'>Book Venue</a></li>
+                            <li><a href='/' className='item'>Contact Us</a></li>
+                        </ul> 
                            
                         </Nav>
 
